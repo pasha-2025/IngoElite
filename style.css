@@ -1,0 +1,1054 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #fff;
+    z-index: 2;
+}
+.fixed_menu{
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 90px;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #fff;
+}
+
+header {
+  background: white;
+  text-align: center;
+}
+header a {
+  text-decoration: none;
+  outline: none;
+  display: block;
+  transition: .3s ease-in-out;
+}
+.logo {
+  color: #D5B45B;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5em;
+  padding: 10px 0;
+}
+nav {
+  display: table;
+  margin: 0 auto;
+  width: 50%;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.topmenu:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.topmenu > li {
+  width: 20%;
+  float: left;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+}
+.topmenu > li > a {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  color: #404040;
+  padding: 10px 15px;
+}
+.topmenu li a:hover { color: orange }
+.submenu-link:after {
+  font-family: "FontAwesome";
+  color: inherit;
+  margin-left: 10px;
+}
+.submenu {
+  background: brown;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: 5;
+  width: 180px;
+  opacity: 0;
+  transform: scaleY(0);
+  transform-origin: 0 0;
+  transition: .5s ease-in-out;
+}
+.submenu a {
+  color: white;
+  text-align: left;
+  padding: 12px 15px;
+  font-size: 13px;
+  border-bottom: 1px solid rgba(255,255,255,.1);
+}
+.submenu li:last-child a { border-bottom: none; }
+.topmenu > li:hover .submenu {
+  opacity: 1;
+  transform: scaleY(1);
+}
+.oficial_banner{
+  background-color: black;
+  width: 100%;
+  height: 919px;
+  position: absolute;
+}
+.oficial_banner img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.oficial_banner blockquote{
+position: absolute;
+margin-top: -25%;
+margin-left: 5%;
+color: white;
+font-size: 45px;
+}
+.image_wooman img{
+  position: absolute;
+  width: 30%;
+  height: 469px;
+  margin-top: -18%;
+  margin-left: 68%;
+}
+.cite_name{
+  color: white;
+  font-size: 45px;
+  margin-top: -18%;
+  margin-left: 35%;
+}
+
+.element::-webkit-scrollbar {
+  width: 0;
+}
+
+/*Убрать полосу прокрутки для всей страницы*/
+::-webkit-scrollbar {
+  width: 0;
+}
+.arrow_sections img{
+  width: 3%;
+  margin-top: 13%;
+  margin-left: 48%;
+}
+
+.Training_programs {
+  position: absolute;
+  width: 100%;
+  height: 480px;
+  background-color: white;
+}
+.Training_programs h1{
+  margin-top: 2%;
+}
+.programm_1{
+  width: 28%;
+  height: 310px;
+  background-color: white;
+  margin-top: 2%;
+  border: solid;
+  border-color: brown;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 19%;
+}
+.programm_2{
+  width: 28%;
+  height: 310px;
+  background-color: white;
+  margin-top: 1%;
+  border: solid;
+  border-color: brown;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 5%;
+}
+.programm_1 p{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 3%;
+}
+.programm_2 p{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 3%;
+}
+.programm_1 a{
+  text-decoration: none;
+  color: brown;
+  display: flex;
+  margin-left: 65%;
+}
+.programm_2 a{
+  text-decoration: none;
+  color: brown;
+  display: flex;
+  margin-left: 65%;
+}
+.informatika{
+  width: 100%;
+  height: 780px;
+  background-color: white;
+  margin-top: 25%;
+}
+.banner_informatika{
+  position: absolute;
+  width: 19%;
+  height: 55px;
+  background-color: brown;
+  color: #fff;
+  margin-top: 5%;
+  font-size: 23px;
+  margin-top: 2%;
+}
+.banner_informatika h2{
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 10%;
+  color: #fff;
+  text-decoration: none;
+}
+.banner_informatika h2:hover{
+  color: orange;
+}
+.banner_informatika img{
+  width: 5%;
+  margin-left: 72%;
+  height: 25px;
+  margin-top: 4%;
+}
+.informatika h3{
+  position: absolute;
+  margin-top: 7%;
+  margin-left: 2%;
+  font-size: 35px;
+}
+.image_human{
+  display: inline-block;
+  width: 20%;
+  height: 430px;
+  background-color: black;
+  margin-top: 13%;
+  margin-left: 4%;
+}
+.image_human img{
+  object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.text_human{
+  width: 100%;
+  height: 50px;
+  background-color: orange;
+  margin-top: 2%;
+  color: #fff;
+  font-size: 30px;
+}
+.ssylki{
+  position: absolute;
+  width: 100%;
+  height: 470px;
+  background-color: brown;
+  margin-top: 3%;
+}
+.ssylki h2{
+  color: #fff;
+  margin-left: 5%;
+  margin-top: 1%;
+  font-size: 30px;
+}
+.image_ssulki{
+  width: 19%;
+  height: 250px;
+  background-color: black;
+  display: inline-block;
+  margin-top: 4%;
+  margin-left: 5%;
+}
+.image_ssulki img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.math{
+  width: 100%;
+  height: 1800px;
+  background-color: #fff;
+  margin-top: 27%;
+}
+.banner_informatika_1{
+  position: absolute;
+  width: 19%;
+  height: 55px;
+  background-color: brown;
+  color: #fff;
+  margin-top: 5%;
+  font-size: 23px;
+  margin-top: 2%;
+}
+.banner_informatika_1 h2{
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 10%;
+  color: #fff;
+  text-decoration: none;
+}
+.banner_informatika_1 h2:hover{
+  color: orange;
+}
+.banner_informatika_1 img{
+  width: 5%;
+  margin-left: 65%;
+  height: 25px;
+  margin-top: 4%;
+}
+.math h1{
+  position: absolute;
+  margin-top: 6%;
+  margin-left: 2%;
+}
+.math p{
+  position: absolute;
+  margin-top: 8%;
+  margin-left: 2%;
+  font-size: 25px;
+}
+.posobie{
+  display: inline-block;
+  width: 20%;
+  height: 480px;
+  background-color: black;
+  margin-top: 14%;
+  margin-left: 4%;
+
+}
+.posobie img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+
+}
+.sm_vse{
+  width: 100%;
+  height: 50px;
+}
+.sm_vse h3{
+  margin-left: 43%;
+  position: absolute;
+  margin-top: 2%;
+}
+.sm_vse a{
+  text-decoration: none;
+  color: black;
+
+}
+.novosti_index{
+  width: 100%;
+  height: 900px;
+  background-color: white;
+}
+.novosti_index img{
+  margin-left: 48%;
+}
+
+.novosti_block_1{
+  width: 100%;
+  height: 55px;
+  background-color: brown;
+  position: absolute;
+  margin-top: 0%;
+  display: inline-block;
+}
+.novosti_block{
+  width: 40%;
+  height: 429px;
+  background-color: white;
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 28%;
+}
+.novosti_block_2{
+  width: 100%;
+  height: 350px;
+  border: solid brown;
+  margin-top: 10%;
+  position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Страница новости*/
+.banner_img{
+  width: 100%;
+  height: 450px;
+  background-color: black;
+}
+.banner_img img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.verticalLine {
+  border-left: thick solid orange;
+  margin-top: -9%;
+  margin-left: 5%;
+  position: absolute;
+  color: #fff;
+  font-size: 25px;
+}
+.novosti_block_0{
+  width: 40%;
+  height: 350 px;
+  background-color: white;
+  margin-left: 28%;
+  margin-top: 3%;
+
+}
+.novosti_block_1{
+  width: 40%;
+  height: 55px;
+  background-color:brown ;
+  text-align: center;
+  color: white;
+}
+.novosti_text_block{
+  width: 100%;
+  height: 280px;
+  border: solid brown;
+  margin-top: 9%;
+}
+.novosti_text_block p{
+  font-size: 30px;
+  margin-top: 9%;
+}
+.novosti_block_1 a{
+  text-decoration: none;
+  color: #fff;
+}
+.podrobnee a{
+  text-decoration: none;
+  margin-top: -2%;
+  position: absolute;
+  font-size: 25px;
+  margin-left: 34%;
+  color: brown;
+
+}
+.switch_1 a{
+  text-decoration: none;
+  color: brown;
+  margin: 0 5px;
+  font-size: 23px;
+}
+.switch_1{
+  margin-top: 3%;
+  text-align: center;
+}
+.Basement{
+  width: 100%;
+  height: 350px;
+  background-color: brown;
+  margin-top: 2%;
+  position: absolute  ;
+}
+.logo_basement h1{
+  color: #fff;
+  font-size: 55px;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+.contact_information p{
+  color: #fff;
+  font-size: 25px;
+  margin-left:5% ;
+  margin-top: 1%;
+}
+.contact_information a{
+  text-decoration: none;
+  color: #fff;
+
+}
+.verticalLine_1 {
+  border-left: thick solid #fff;
+  margin-left: 35%;
+  height: 65%;
+  position: absolute;
+  margin-top: -13%;
+}
+.social img{
+  width: 4%;
+  margin-left:5%;
+}
+.basement_menu{
+  width: 100%;
+  height: 100px;
+  margin-top: -10%;
+}
+.basement_menu a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  
+}
+.bes_menu_one a{
+  margin-top: 0%;
+  margin-left: 48%;
+  position: absolute;
+
+}
+.bes_menu_two a{
+  margin-top: -5%;
+  margin-left: 68%;
+  position: absolute;
+
+
+
+}
+
+
+.world_skils{
+  width: 100%;
+  height: 100px;
+  background-color: brown;
+  margin-top: 3%;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+}
+.world_skils h1{
+  margin-top: 1%;
+  font-size: 35px;
+  
+}
+
+.Schedule{
+  width: 35%;
+  height: 550px;
+  background-color: brown;
+  margin-top: 13%;
+  margin-left: 5%;
+}
+.Schedule img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.Schedule_two{
+  width: 35%;
+  height: 600px;
+  background-color: brown;
+  margin-top: 5%;
+  margin-left: 5%;
+
+}
+.Schedule_two img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.text_information_olimpiad p{
+  font-size: 30px;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+.About_our_training{
+    width: 100%;
+    height: 100px;
+    background-color: brown;
+    margin-top: 3%;
+}
+.About_our_training h1{
+  text-align: center;
+  color: #fff;
+  font-size: 35px;
+}
+.block_id_About_our_training_information{
+  width: 45%;
+  height: 400px;
+  background-color: brown;
+  display: inline-block;
+  margin-left: 4%;
+  margin-top: 2%;
+}
+.block_id_About_our_training_image{
+  width: 45%;
+  height: 400px;
+  background-color: black;
+  display: inline-block;
+  margin-left: 1%;
+}
+.match_prepod_id a{
+  text-decoration: none;
+  color: brown;
+  font-size: 30px;
+  margin-top: 1%;
+}
+.information_prepod_id a{
+  text-decoration: none;
+  color: brown;
+  font-size: 30px;
+  margin-top: 1%;
+
+}
+.match_prepod_id{
+  margin-left: 5%;
+}
+.image_prepod_1{
+  width: 30%;
+  height:700px;
+}
+.image_prepod_1 img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.information_prepod_id{
+  margin-left: 5%;
+}
+.block_id_About_our_training_information img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.image_prepod_1{
+  margin-top: 3%;
+  margin-left: 5%;
+}
+.data_prepod{
+  width: 40%;
+  height: 480px;
+  margin-left: 40%;
+  margin-top: -35%;
+}
+.data_prepod p{
+  font-size: 30px;
+  margin-left: 1%;
+}
+.data_prepod a{
+  text-decoration: none;
+  color: brown;
+}
+.data_prepod h1{
+  font-size: 30px;
+  margin-left:1% ;
+  margin-top: 1%;
+
+}
+.image_image_1 img{
+  width: 60%;
+}
+.kopilka p{
+  font-size: 30px;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+.kopilka h1{
+  font-size: 30px;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+.kopilka a{
+  text-decoration: none;
+  color: brown;
+  font-size: 30px;
+  margin-left: 5%;
+}
+.image_image_1 a{
+  text-decoration: none;
+  color: brown;
+  font-size: 30px;
+  margin-top: 3%;
+  position: absolute;
+  margin-left: 5%;
+}
+.text_gon p{
+  font-size: 30px;
+  margin-left: 2%;
+}
+.image_image_image img{
+  width: 30%;
+  margin-top: 3%;
+  margin-left: 2%;
+}
+.block_id_About_our_training_image {
+  margin-top: 2%;
+  position: absolute;
+  background-color: #fff;
+  font-size: 28px;
+  
+
+}
+
+@media  (max-width:1366px)  {
+  .fixed_menu{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 90px;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: #f2f2f2;
+  }
+  header {
+    background: white;
+    text-align: center;
+  }
+  header a {
+    text-decoration: none;
+    outline: none;
+    display: block;
+    transition: .3s ease-in-out;
+  }
+  .logo {
+    color: #D5B45B;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    padding: 10px 0;
+  }
+  nav {
+    display: table;
+    margin: 0 auto;
+    width: 60%;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .topmenu:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .topmenu > li {
+    width: 20%;
+    float: left;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .topmenu > li > a {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    color: #404040;
+    padding: 10px 15px;
+  }
+  .topmenu li a:hover { color: orange }
+  .submenu-link:after {
+    font-family: "FontAwesome";
+    color: inherit;
+    margin-left: 10px;
+  }
+  .submenu {
+    background: brown;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 5;
+    width: 180px;
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: 0 0;
+    transition: .5s ease-in-out;
+  }
+  .submenu a {
+    color: white;
+    text-align: left;
+    padding: 12px 15px;
+    font-size: 13px;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+  }
+  .submenu li:last-child a { border-bottom: none; }
+  .topmenu > li:hover .submenu {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+  .oficial_banner{
+    background-color: black;
+    width: 100%;
+    height: 850px;
+    position: absolute;
+  }
+  .oficial_banner blockquote{
+    position: absolute;
+    margin-top: -35%;
+    margin-left: 5%;
+    color: white;
+    font-size: 35px;
+    }
+    .image_wooman img{
+      position: absolute;
+      width: 25%;
+      height: 265px;
+      margin-top: -17%;
+      margin-left: 68%;
+    }
+    .cite_name{
+      color: white;
+      font-size: 35px;
+      margin-top: -27%;
+      margin-left: 40%;
+    }
+
+
+    .Training_programs {
+      position: absolute;
+      width: 100%;
+      height: 480px;
+      background-color: white;
+    }
+    .Training_programs h1{
+      margin-top: 2%;
+    }
+    .programm_1{
+      width: 35%;
+      height: 280px;
+      background-color: white;
+      margin-top: 0%;
+      border: solid;
+      border-color: brown;
+      border-radius: 10px;
+      display: inline-block;
+      margin-left: 10%;
+    }
+    .programm_2{
+      width: 35%;
+      height: 280px;
+      background-color: white;
+      margin-top: 0%;
+      border: solid;
+      border-color: brown;
+      border-radius: 10px;
+      display: inline-block;
+      margin-left: 10%;
+      position: absolute;
+    }
+    .programm_1 p{
+      font-size: 25px;
+      text-align: center;
+      margin-top: 3%;
+    }
+    .programm_2 p{
+      font-size: 25px;
+      text-align: center;
+      margin-top: 3%;
+    }
+    .programm_1 a{
+      text-decoration: none;
+      color: brown;
+      display: flex;
+      margin-left: 65%;
+    }
+    .programm_2 a{
+      text-decoration: none;
+      color: brown;
+      display: flex;
+      margin-left: 65%;
+    }
+    .informatika{
+      width: 100%;
+      height: 780px;
+      background-color: white;
+      margin-top: 25%;
+    }
+    .banner_informatika{
+      position: absolute;
+      width: 27%;
+      height: 55px;
+      background-color: brown;
+      color: #fff;
+      margin-top: 6%;
+      font-size: 23px;
+      margin-top: 2%;
+    }
+    .banner_informatika h2{
+      position: absolute;
+      margin-top: 1%;
+      margin-left: 10%;
+      color: #fff;
+      text-decoration: none;
+    }
+    .banner_informatika h2:hover{
+      color: orange;
+    }
+    .banner_informatika img{
+      width: 5%;
+      margin-left: 75%;
+      height: 25px;
+      margin-top: 4%;
+    }
+    .informatika h3{
+      position: absolute;
+      margin-top: 7%;
+      margin-left: 2%;
+      font-size: 35px;
+    }
+    .image_human{
+      display: inline-block;
+      width: 15%;
+      height: 430px;
+      background-color: black;
+      margin-top: 17%;
+      margin-left: 4%;
+    }
+    .text_human{
+      width: 100%;
+      height: 50px;
+      background-color: orange;
+      margin-top: 2%;
+      color: #fff;
+      font-size: 30px;
+    }
+    .ssylki{
+      position: absolute;
+      width: 100%;
+      height: 470px;
+      background-color: brown;
+      margin-top: 3%;
+    }
+    .ssylki h2{
+      color: #fff;
+      margin-left: 5%;
+      margin-top: 1%;
+      font-size: 30px;
+    }
+    .image_ssulki{
+      width: 19%;
+      height: 250px;
+      background-color: black;
+      display: inline-block;
+      margin-top: 4%;
+      margin-left: 5%;
+    }
+    .image_ssulki img{
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+    .math{
+      width: 100%;
+      height: 1800px;
+      background-color: #fff;
+      margin-top: 27%;
+    }
+    .banner_informatika_1{
+      position: absolute;
+      width: 19%;
+      height: 55px;
+      background-color: brown;
+      color: #fff;
+      margin-top: 5%;
+      font-size: 23px;
+      margin-top: 2%;
+    }
+    .banner_informatika_1 h2{
+      position: absolute;
+      margin-top: 1%;
+      margin-left: 10%;
+      color: #fff;
+      text-decoration: none;
+    }
+    .banner_informatika_1 h2:hover{
+      color: orange;
+    }
+    .banner_informatika_1 img{
+      width: 5%;
+      margin-left: 65%;
+      height: 25px;
+      margin-top: 4%;
+    }
+    .math h1{
+      position: absolute;
+      margin-top: 6%;
+      margin-left: 2%;
+    }
+    .math p{
+      position: absolute;
+      margin-top: 8%;
+      margin-left: 2%;
+      font-size: 25px;
+    }
+    .posobie{
+      display: inline-block;
+      width: 20%;
+      height: 480px;
+      background-color: black;
+      margin-top: 14%;
+      margin-left: 4%;
+    
+    }
+    .posobie img{
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media  (max-width:390px){
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
